@@ -1,0 +1,49 @@
+.top-bar {
+    display: flex;
+    justify-content: center; /* centra todo el grupo */
+    align-items: center;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 10px 20px;
+    color: white;
+    gap: 30px; /* espacio entre botones y logo */
+    flex-wrap: wrap;
+  }
+  
+  .side-buttons {
+    display: flex;
+    gap: 8px; /* menos espacio entre botones */
+  }
+  
+  .side-buttons button {
+    background-color: #ffffff20;
+    border: none;
+    padding: 6px 10px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .side-buttons button:hover {
+    background-color: #ff0000;
+  }
+  
+  .logo-center img {
+    height: 100px;
+    object-fit: contain;
+  }
+  .card {
+    position: relative;
+    
+    /* el resto de tus estilos */
+  }
+  
+  .new-badge {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    width: 10%; /* más pequeño */
+    height: auto;
+    z-index: 10;
+  }
+  

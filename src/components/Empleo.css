@@ -1,0 +1,139 @@
+/* Empleo.css */
+
+.empleo-container {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Logo */
+.logo-container {
+  text-align: center;
+  padding: 2rem 1rem 1rem;
+}
+
+.logo-img {
+  max-width: 300px;
+  width: 80%;
+  height: auto;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.logo-img:hover {
+  transform: scale(1.05);
+}
+
+/* Encabezado */
+.header-section {
+  color: white;
+  padding: 3rem 1rem;
+  text-align: center;
+}
+
+.header-section h1 {
+  color: #ffc107;
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.header-section h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+/* Beneficios */
+.benefits-section {
+  padding: 3rem 1rem;
+  text-align: center;
+}
+
+.benefits-section .content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 2rem;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.benefits-list {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  font-size: 1.1rem;
+  color: #000000;
+  max-width: 600px;
+  margin: auto;
+  list-style: none;
+}
+
+.benefits-list li {
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  line-height: 1.5;
+  border-bottom: 1px solid #f0f0f0;
+  padding-bottom: 0.5rem;
+}
+
+.benefits-list li:last-child {
+  border-bottom: none;
+}
+
+.benefits-image {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+/* Contacto */
+.contact-section {
+  background-color: #656565;
+  padding: 3rem 1rem;
+  text-align: center;
+}
+
+.contact-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.contact-card {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 10px;
+  width: 180px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.contact-card .icon {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: #00b8d4;
+}
+.volver-container {
+    text-align: center;
+    margin: 40px 0;
+  }
+  
+  .volver-boton {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .volver-boton:hover {
+    background-color: #333;
+  }
